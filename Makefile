@@ -2,8 +2,8 @@ shell = bash
 
 PYTHON = python
 
-PGUSER ?= $(USER)
-PGDATABASE ?= $(PGUSER)
+PGUSER = docker
+PGDATABASE = buses
 PSQLFLAGS = $(PGDATABASE)
 PSQL = psql $(PSQLFLAGS)
 
